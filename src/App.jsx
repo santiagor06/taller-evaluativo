@@ -1,4 +1,5 @@
 
+import Login from './Componentes/Login/Login'
 import Menu from './Componentes/Menu/Menu'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <Menu/>
+    <Login/>
 
     </>
   )
