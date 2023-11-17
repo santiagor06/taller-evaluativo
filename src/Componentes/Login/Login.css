@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
 .login{
+   
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -7,6 +14,7 @@
     box-shadow: 10px 10px 10px 10px rgb(199, 198, 198);
     height: 400px;
     width: 400px;
+    background-color: white;
 }
 .container{
     display: flex;
@@ -14,6 +22,7 @@
     align-items: center;
     margin: 50px;
     padding: 30px;
+    background-color: white;
     box-shadow: 10px 10px 10px 10px rgb(199, 198, 198);
 }
 img{
@@ -61,3 +70,11 @@ button{
     width: 400px;
     
 }
+:root{
+    --degrade: linear-gradient(270deg, #4722ec 0%,  rgb(17, 204, 211) 100%);
+}
+button:hover{
+    transform: scale(1.02);
+    background: var(--degrade);
+}
+

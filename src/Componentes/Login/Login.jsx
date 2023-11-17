@@ -2,6 +2,7 @@ import React from 'react'
 import './Login.css'
 const Login = () => {
     return (
+        <section className='fondo'>
         <section className='container'>
 
             <form action="" >
@@ -32,7 +33,7 @@ const Login = () => {
             </section>
 
         </section>
-
+        </section>
     )
 }
 
