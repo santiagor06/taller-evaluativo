@@ -1,8 +1,6 @@
 
 import { Outlet } from 'react-router'
-
 import Menu from './Componentes/Menu/Menu'
-
 
 function App() {
 

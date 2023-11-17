@@ -13,6 +13,9 @@ const Menu = () => {
         <Link to="login">
         Login
         </Link>
+        <Link to="clientes">
+        Clientes
+        </Link>
     </div>
     </>  );
 }

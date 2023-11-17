@@ -3,6 +3,7 @@ import App from "../App"
 import Panel from '../Componentes/Panel/Panel';
 import Productos from '../Componentes/Productos/Productos';
 import Login from '../Componentes/Login/Login';
+import Clientes from '../Componentes/Clientes/Clientes';
 
 
 export const router=createBrowserRouter([
@@ -12,7 +13,8 @@ export const router=createBrowserRouter([
         children:[
             {path:"/",element:<Panel/>,},
             {path:"login",element:<Login/>,},
-            {path:"/productos",element:<Productos/>,},
+            {path:"productos",element:<Productos/>,},
+            {path:"clientes",element:<Clientes/>,},
         ]
     },
       {
