@@ -16,7 +16,7 @@ const Clientes = () => {
                     <p>Telefono: 555-55-55</p>
                     <p>Ciudad: Medellín</p>
                     <img src={cliente1} alt="" />
-                    <button>Agregar cliente</button>
+                    <button>Consultar cliente</button>
 
                 </div>
                 <div class="card">
@@ -25,7 +25,7 @@ const Clientes = () => {
                     <p>Telefono: 555-55-55</p>
                     <p>Ciudad: Medellín</p>
                     <img src={cliente2} alt="" />
-                    <button>Agregar cliente</button>
+                    <button>Consultar cliente</button>
                 </div>
                 <div class="card">
                     <h1>Diana Asprilla</h1>
@@ -33,7 +33,7 @@ const Clientes = () => {
                     <p>Telefono: 32087643</p>
                     <p>Ciudad: Medellín</p>
                     <img src={cliente3} alt="" />
-                    <button>Agregar cliente</button>
+                    <button>Consultar cliente</button>
 
                 </div>
                 <div class="card">
@@ -42,7 +42,7 @@ const Clientes = () => {
                     <p>Telefono: 645-80-55</p>
                     <p>Ciudad: Medellín</p>
                     <img src={cliente4} alt="" />
-                    <button>Agregar cliente</button>
+                    <button>Consultar cliente</button>
 
                 </div>
             </div>
