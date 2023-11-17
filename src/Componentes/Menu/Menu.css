@@ -1,0 +1,17 @@
+.botones{
+display: flex;
+ justify-content: left;
+ color: #0e3459;
+ height: 20px;
+ border-radius: 4px;
+ padding: 1em;
+ background-color: aqua;
+ 
+
+
+ 
+ }
+  @keyframes shaking{
+
+    
+  }
