@@ -28,7 +28,7 @@ const Clientes = () => {
                     <button>Agregar cliente</button>
                 </div>
                 <div class="card">
-                    <h1>DIANA ASPRILLA</h1>
+                    <h1>Diana Asprilla</h1>
                     <p>Correo: diana@gamil.com</p>
                     <p>Telefono: 32087643</p>
                     <p>Ciudad: Medellín</p>
