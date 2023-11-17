@@ -12,7 +12,7 @@ const Clientes = () => {
             <div class="parent">
                 <div class="card">
                     <h1>Diana Gomez</h1>
-                    <p>Correo: diana@gamil.com</p>
+                    <p>Correo: diana@gmail.com</p>
                     <p>Telefono: 555-55-55</p>
                     <p>Ciudad: Medellín</p>
                     <img src={cliente1} alt="" />
@@ -21,26 +21,26 @@ const Clientes = () => {
                 </div>
                 <div class="card">
                     <h1>Carlos Ramirez</h1>
-                    <p>Correo: diana@gamil.com</p>
-                    <p>Telefono: 555-55-55</p>
-                    <p>Ciudad: Medellín</p>
+                    <p>Correo: carlos@gmail.com</p>
+                    <p>Telefono: 666-66-66</p>
+                    <p>Ciudad: Bogota</p>
                     <img src={cliente2} alt="" />
                     <button>Consultar cliente</button>
                 </div>
                 <div class="card">
                     <h1>Diana Asprilla</h1>
-                    <p>Correo: diana@gamil.com</p>
-                    <p>Telefono: 32087643</p>
-                    <p>Ciudad: Medellín</p>
+                    <p>Correo: diana@gmail.com</p>
+                    <p>Telefono: 444-44-44</p>
+                    <p>Ciudad: Cali</p>
                     <img src={cliente3} alt="" />
                     <button>Consultar cliente</button>
 
                 </div>
                 <div class="card">
-                    <h1>PEDRO MORENO</h1>
-                    <p>Correo: pedrog@gamil.com</p>
-                    <p>Telefono: 645-80-55</p>
-                    <p>Ciudad: Medellín</p>
+                    <h1>Pedro Moreno</h1>
+                    <p>Correo: pedrog@gmail.com</p>
+                    <p>Telefono: 333-33-33</p>
+                    <p>Ciudad: Barranquilla</p>
                     <img src={cliente4} alt="" />
                     <button>Consultar cliente</button>
 
