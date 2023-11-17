@@ -6,4 +6,74 @@
     --azul4: #0ffff8;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    place-items: center;
+    
+    }
+  .card {
+    width: 250px;
+    height: 540px;
+    border-color: 1px solid var(--negro);
+    border-radius: 20px;
+    background-color: var(--azul3);
+    border: 2px solid var(--azul2);
+    text-align: center;
+    box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img{
+    object-fit: cover;
+    width: 210px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    background-color: var(--boton);
+    color: var(--azul4);
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0874b9 0%, #08c1ff 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
 
